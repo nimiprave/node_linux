@@ -1,0 +1,19 @@
+{
+  "name": "second_project",
+  "version": "1.0.0",
+  "description": "testing the nodejs in the linux environment",
+  "main": "index.js",
+  "type": "cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "nirmal praveen pothuraj",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
