@@ -1,5 +1,11 @@
-import color from 'chalk'
-import greetings from './greetings'
-//const greetings = require('./greetings.js')
-console.log(color.red("Hey There!.. starting my node journey againnpcl"))
-greetings.hello();
+import greetings from './greetings.js'
+import {add,multiply,subtract } from './mathModules.js'
+import service from './service.js'
+
+greetings()
+
+
+console.log(add(2,3))
+console.log(service.name)
+console.log(service.lastName)
+console.log(service.getAddress())

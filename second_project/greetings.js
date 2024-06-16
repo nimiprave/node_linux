@@ -1,5 +1,3 @@
-function hello(){
-  console.log("Hello")
+export default function greetings(){
+  console.log("Hello World")
 }
-
-module.exports.hello = hello;
